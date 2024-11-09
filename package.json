@@ -18,15 +18,15 @@
     "async": "^3.2.0",
     "uuid": "^8.3.2",
     "dotenv": "^10.0.0",
-    "apollo-server-express": "^3.6.7",  // updated for compatibility
-    "graphql": "^15.8.0",  // required by apollo-server-express
+    "apollo-server-express": "^3.6.7",
+    "graphql": "^15.8.0",
     "puppeteer": "^19.0.0"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
-    "eslint-plugin-promise": "^6.0.0",  // compatible with eslint@8.x
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-standard": "^5.0.0",
-    "superagent": "^9.0.0"  // Updated for compatibility
+    "superagent": "^9.0.0"
   },
   "author": "",
   "license": "ISC"
