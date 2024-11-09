@@ -25,4 +25,4 @@ jobs:
           path: ~/.npm  # Caching npm's package cache directory
           key: ${{ runner.os }}-npm-cache-${{ hashFiles('**/package-lock.json') }}
       - name: Install Dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
